@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: black;
+}
+.all{
+ display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+padding: 20px;
+
+}
+ .parent-one{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;  
+}
+.parent-two{ 
+    display: flex; 
+    justify-items: center;
+    flex-direction: row;
+}
+.rectangle{
+    width: 300px;
+    height: 80px;
+    border: 1px solid blue;
+   margin: 20px;
+}
+.rectangle1{
+    width: 100px;
+    height: 300px;
+    border: 1px solid blue;
+   margin: 20px;
+}
+.child-one div ,.child-two div ,.child-three div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(222, 152, 39);
+    margin: 5px;
+}
+.child-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child-two{
+    display: flex;
+    justify-content: center;
+    align-items:start; 
+}
+.child-three{
+    display: flex;
+    justify-content: center;
+    align-items:end; 
+}
+.child-four div ,.child-five div,.child-six div {
+    width: 50px;
+    height: 80px;
+    border: 1px solid rgb(222, 152, 39);
+    margin: 5px;
+}
+.child-four{
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    align-items: center;
+}
+.child-five{
+    display: flex;
+    justify-content:center;
+    flex-direction: column ;
+   align-items:start;
+}
+.child-six{
+    display: flex;
+    justify-content:center;
+    flex-direction: column ;
+    align-items: end; 
+}
+
+
+
+
+
